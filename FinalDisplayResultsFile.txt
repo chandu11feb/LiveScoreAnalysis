@@ -1,0 +1,27 @@
+Score = 128 - 4 (10.2)
+
+Overs - 1  ,yeswins : 2 , noWins :3 , betweens : 1
+Overs - 1  ,yeswinovers : 0.1,0.2,0.3,0.4
+Overs - 1  ,nowinovers : 0.1,0.2,0.3,0.4
+Overs - 1  ,betweensovers : 0.1,0.2,0.3,0.4
+
+Overs - 2  ,yeswins : 2 , noWins :3 , betweens : 1
+Overs - 2  ,yeswinovers : 0.1,0.2,0.3,0.4
+Overs - 2  ,nowinovers : 0.1,0.2,0.3,0.4
+Overs - 2  ,betweensovers : 0.1,0.2,0.3,0.4
+
+Overs - 3  ,yeswins : 2 , noWins :3 , betweens : 1
+Overs - 3  ,yeswinovers : 0.1,0.2,0.3,0.4
+Overs - 3  ,nowinovers : 0.1,0.2,0.3,0.4
+Overs - 3  ,betweensovers : 0.1,0.2,0.3,0.4
+
+Overs - 4  ,yeswins : 2 , noWins :3 , betweens : 1
+Overs - 4  ,yeswinovers : 0.1,0.2,0.3,0.4
+Overs - 4  ,nowinovers : 0.1,0.2,0.3,0.4
+Overs - 4  ,betweensovers : 0.1,0.2,0.3,0.4
+
+Overs - 5  ,yeswins : 2 , noWins :3 , betweens : 1
+Overs - 5  ,yeswinovers : 0.1,0.2,0.3,0.4
+Overs - 5  ,nowinovers : 0.1,0.2,0.3,0.4
+Overs - 5  ,betweensovers : 0.1,0.2,0.3,0.4
+

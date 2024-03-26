@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashboardAnalysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #8AE68A, #FFFF99); /* Gradient from green to yellow */
+            margin: 0;
+            padding: 20px;
+            color: #333; /* Font color */
+        }
+
+        h1 {
+            color: #1a73e8; /* Heading color */
+        }
+
+        #content {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            line-height: 1.5;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Current Match Details</h1>
+    <pre id="content"></pre>
+
+    <script>
+        // Function to fetch and display content line by line
+        function displayContent() {
+            fetch('./FinalDisplayResultsFile.txt')
+                .then(response => response.text())
+                .then(text => {
+                    const lines = text.split('\n');
+                    const contentElement = document.getElementById('content');
+                    lines.forEach(line => {
+                        const span = document.createElement('span');
+                        span.innerText = line + '\n';
+                        span.style.color = getRandomColor(); // Assign a random color to each line
+                        contentElement.appendChild(span);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching file:', error);
+                });
+        }
+
+        // Function to generate random color
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Call the function when the page loads
+        window.onload = displayContent;
+    </script>
+</body>
+</html>
