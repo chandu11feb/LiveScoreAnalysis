@@ -1,4 +1,4 @@
-Score = 128 - 4 (10.2)
+Score = 128 - 4 (11.2)
 
 Overs - 1  ,yeswins : 2 , noWins :3 , betweens : 1
 Overs - 1  ,yeswinovers : 0.1,0.2,0.3,0.4
