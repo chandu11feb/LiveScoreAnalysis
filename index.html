@@ -35,7 +35,7 @@
     <script>
         // Function to fetch and display content line by line
         function displayContent() {
-            fetch('./FinalDisplayResultsFile.txt')
+            fetch('FinalDisplayResultsFile.txt')
                 .then(response => response.text())
                 .then(text => {
                     const lines = text.split('\n');
